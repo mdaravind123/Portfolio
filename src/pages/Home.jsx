@@ -11,8 +11,8 @@ export default function Home() {
         </div>
       </div>
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-        <div className="flex justify-center items-center h-[90vh] tracking-in-contract-bck">
-          <div className="flex flex-col justify-center items-center md:justify-start md:items-start ">
+        <div className="flex justify-center items-center h-[90vh] tracking-in-contract-bck order-2 lg:order-1">
+          <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
             <h1 className="text-black text-[25px] font-[Poppins] font-normal">
               Software Developer
             </h1>
