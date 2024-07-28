@@ -13,43 +13,66 @@ export default function Home() {
       <div className="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <div className="flex justify-center items-center h-[90vh] tracking-in-contract-bck order-2 lg:order-1">
           <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
-            <h1 className="text-black text-[25px] font-[Poppins] font-normal">
+            <h1 className="text-black text-[25px] font-[Poppins] font-normal w-full">
               Software Developer
             </h1>
-            <h1 className="text-black text-[48px] font-[Poppins] font-normal">
+            <h1 className="text-black text-[48px] font-[Poppins] font-normal w-full">
               Hello I'm
             </h1>
-            <h1 className="text-black text-[48px] font-[Poppins] font-normal">
+            <h1 className="text-black text-[48px] font-[Poppins] font-normal w-full">
               M D Aravind
             </h1>
-            <p className="text-black text-[20px] font-[Poppins] font-normal w-full text-center lg:text-left">
+            <p className="text-black text-[20px] font-[Poppins] font-normal w-full lg:text-left">
               I'm a Passionate Full Stack Developer aiming to build dynamic and
               Interactive websites and products which helps people and simplify
               their work
             </p>
-            <div className="flex gap-7 my-5 flex-col lg:flex-row justify-center items-center">
-              <a href="https://ik.imagekit.io/bagqqfegz/portfolio/M-D-Aravind-FlowCV-Resume-20240328.pdf?updatedAt=1720373722046">
-                <button className="bg-green-400 text-white w-52 h-12 p-2 text-[20px] rounded-3xl border-solid border-[2px] border-white cursor-pointer">
-                  <div className="flex justify-center item-center">
-                    <p>Download CV</p>
-                    <svg
-                      viewBox="0 0 21 21"
-                      fill="currentColor"
-                      className="w-7 h-7"
-                    >
-                      <g
+            <div className="flex gap-7 my-5 flex-col lg:flex-col justify-center items-center">
+              <div className="flex flex-col lg:flex-row gap-2">
+                <a href="https://ik.imagekit.io/bagqqfegz/portfolio/M-D-Aravind-FlowCV-Resume-20240328.pdf?updatedAt=1720373722046">
+                  <button className="bg-green-400 hover:bg-black text-white w-52 h-12 p-2 text-[20px] rounded-3xl border-solid border-[2px] border-white cursor-pointer">
+                    <div className="flex justify-center item-center">
+                      <p>Download CV</p>
+                      <svg
+                        viewBox="0 0 21 21"
+                        fill="currentColor"
+                        className="w-7 h-7"
+                      >
+                        <g
+                          fill="none"
+                          fillRule="evenodd"
+                          stroke="currentColor"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12" />
+                        </g>
+                      </svg>
+                    </div>
+                  </button>
+                </a>
+                <a href="#">
+                  <button className="bg-green-400 hover:bg-black text-white w-52 h-12 p-2 text-[20px] rounded-3xl border-solid border-[2px] border-white cursor-pointer">
+                    <div className="flex justify-center items-center gap-2">
+                      <p>Contact Me</p>
+                      <svg
                         fill="none"
-                        fillRule="evenodd"
                         stroke="currentColor"
                         strokeLinecap="round"
                         strokeLinejoin="round"
+                        strokeWidth={2}
+                        viewBox="0 0 24 24"
+                        className="w-7 h-7"
                       >
-                        <path d="M6.5 10.5l4 4.232 4-4.191M10.5 3.5v11M4.5 17.5h12" />
-                      </g>
-                    </svg>
-                  </div>
-                </button>
-              </a>
+                        <path d="M17 18a2 2 0 00-2-2H9a2 2 0 00-2 2" />
+                        <path d="M5 4 H19 A2 2 0 0 1 21 6 V20 A2 2 0 0 1 19 22 H5 A2 2 0 0 1 3 20 V6 A2 2 0 0 1 5 4 z" />
+                        <path d="M14 10 A2 2 0 0 1 12 12 A2 2 0 0 1 10 10 A2 2 0 0 1 14 10 z" />
+                        <path d="M8 2v2M16 2v2" />
+                      </svg>
+                    </div>
+                  </button>
+                </a>
+              </div>
               <div className="flex gap-5">
                 <a href="https://github.com/mdaravind123">
                   <svg
